@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      body {
+        display: flex;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+        background-color: #000;
+      }
+
+      h1 {
+        font-size: 250px;
+        font-weight: bolder;
+        color: transparent;
+        background-clip: text;
+        -webkit-text-stroke: 1px white;
+        background-image: url(./1.jpg);
+        animation: textA 30s linear infinite;
+      }
+
+      @keyframes textA {
+        to {
+          position: 0px;
+        }
+        from {
+          position: 1000px;
+        }
+      }
+    </style>
+    <title>Text Animation</title>
+  </head>
+  <body>
+    <h1>Danny</h1>
+  </body>
+</html>

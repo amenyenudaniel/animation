@@ -19,15 +19,15 @@
         background-clip: text;
         -webkit-text-stroke: 1px white;
         background-image: url(./1.jpg);
-        animation: textA 30s linear infinite;
+        animation: animate 30s linear infinite;
       }
 
-      @keyframes textA {
-        to {
-          position: 0px;
+      @keyframes animate {
+        0% {
+          background-position: 0;
         }
-        from {
-          position: 1000px;
+        100% {
+          background-position: 3500px;
         }
       }
     </style>
